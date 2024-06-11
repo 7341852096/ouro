@@ -1,0 +1,53 @@
+title>primeiro html  </title>
+</head>
+<body>
+  <strong> <mark> <h1 id="votaraoincio"><i> O QUE EU APREDI SOBRE HTML </h1> </strong> </i> </mark>
+  <hr>
+  <H2> ATRIBUTOS E TAGS </H2>
+  <H3>COMO USAR INDEX</H3>
+  <H4>COMO USAR ATRIBUTOS</H4>
+<H5>IMPORTACIA DAS TAGS</H5>
+<H6> por kauã felipe moreira segantine</H6>
+<blockquote> web não está concluída, é apenas a ponta do iceberg. As novas mudanças irão balançar o mundo ainda mais. </blockquote>  
+<p>  tim berners-lee </p>
+ <p></p>  eu aprendi muito no curso da dio sobre html inclusive sou muito grato a isso , agora estarei fazendo minha pagina web 
+    ussando todas as tags que aprendi nas aulas  </p> 
+    <p> irei organizar uma pequena lista de tags e seus tipos e uma segunda lista de <mark> TAGS  importantes </mark>
+         </p>
+         <p> no final da pagina colocarei link para vc saber mais </p>
+<p> descupe se estiver algo errado</p>
+<p> estou aqui pra apreder e espero que seja um bom exercio</p> 
+
+<ul>
+    <li style="color: darkred;"> tags de texto </li>
+    <li style="color: darkred;" 0, 0, 0.603);">tags de imagens</li>
+    <li style="color: darkred;"> tags de links </li>
+    <li style="color: darkred;">etc</li>
+</ul>
+
+<p>  importantes </p>
+<ol>
+<u> <li style="color: darkblue;"> body</li> </u>
+<u> <li style="color: darkblue;"> head</li> </u>
+<u> <li style="color: darkblue;">h</li> </u>
+<u> <li style="color: darkblue;"> img"</li> </u>
+<u> <li style="color: darkblue;"> a </li> </u>
+</ol>
+<p> alguns atributos </p>
+<ol>
+    <li style="color: darkgreen;"> cor</li>
+    <li style="color: darkgreen;"> widitch </li>
+    <li style="color: darkgreen;">hight</li>
+</ol>
+<p> <fonte> aqui colocarei links sobre mais comados hmtl </fonte> </p> 
+<a href="https://youtu.be/-FQP7hD-J6A?si=qgtYawmqjurfXDXu"> mais sobre os comados </a>
+<p> os intes listados foram apenas algumas coias que apredi </p>
+<p> <small> <sup> espero que vc tenha visto a pagina  ate aqui </sup> </small>
+</p>
+ <del> <p>final</p> </del>
+<p> finalizo aqui meu prime </p>
+<ul> 
+<li> <a href="#votarnoincio">incio</a></li>
+</ul>
+</body> 
+</html>
