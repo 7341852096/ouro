@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> clinica</title>
+    <link rel="stylesheet" href="clinica">
+</head>
+<body>   
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu --> 
+            <ul>
+                <li><a href=""> </a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header"> 
+                Header
+                <!-- Aqui vai o seu header -->  <img src="https://th.bing.com/th/id/OIP.7G1P9tWQOAXcqGa_ogO7PQHaHk?w=191&h=195&c=7&r=0&o=5&pid=1.7" width="120" >
+            </div>
+
+            <div class="content">
+                Content
+                <!-- Aqui vai o seu conteúdo -->  <p> especializada em tratamento piquisiatra com varios espevialistas </p>
+
+<p> nossa clina ja fez varios clientes satifeitos com nossos tratamentos com profisonais </p>
+
+<p> a seguir o formulario de cadastro</p>  
+
+<form action="/action_page.php" method="get">
+ primeiro nome   <label for="fname"> </label>
+   <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname"></label>
+   sobre nome <input type="text" id="lname" name="lname"><br><br>
+  idade  <input type="number" max="100" min="0">  </label>
+   e mail <label > <input type="text"> </label>
+    senha <label> <input type="password"> </label>  <br>
+
+
+  </form>
+
+
+
+            </div>
+            <div class="footer">
+                Footer
+                <!-- Aqui vai o seu rodapé --> 
+            </div>
+        </div>
+    </div> 
+    <style>
+    tml, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(127, 157, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(0, 255, 98);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(96, 5, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(62, 240, 56);
+    min-height: 150px;
+}
+<!DOCTYPE html
+ </style> 
+ 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>  
+</html>
